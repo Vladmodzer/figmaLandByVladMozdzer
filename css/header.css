@@ -1,0 +1,39 @@
+.header {
+    position: relative;
+}
+.header_button {
+    background-color: transparent;
+    cursor: pointer;
+}
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.header_buttons_box {
+    display: flex;
+}
+.header_button_box{
+    padding-right: 20px;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+.header_menu li {
+    padding-right: 10px;
+}
+.header_menu li a {
+    opacity: 0.4;
+}
+
+
+
+.header_menu li a:hover {
+    text-shadow: 0 0 7px var(--white-color); /* Уменьшаем радиус размытия */
+  
+}
+.header_logo:hover {
+    transition: all 0.4s ease 0s;
+    filter: drop-shadow(white 0px 0px 10px);
+}
+

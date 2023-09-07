@@ -1,0 +1,43 @@
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Сброс для ссылок */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Сброс для шрифтов */
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;  
+  }
+  
+  /* Сброс для картинок */  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Сброс для форм */
+  input, button, textarea {
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  /* Сброс для box sizing */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box; 
+  }
+
+li {
+    list-style: none;
+  }
+ul{
+    margin: 0;
+}

@@ -1,0 +1,6 @@
+.footer_menu a:hover {
+    text-shadow: 0 0 10px var(--white-color);
+}
+.footer_menu_links img {
+    cursor: pointer;
+}

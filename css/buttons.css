@@ -1,0 +1,41 @@
+/* button styles */
+
+.transparent_button {
+    background: transparent;
+    color: var(--white-color);
+    border:  1px solid var(--white-color);
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 46px;
+    padding-right: 46px;
+    
+  }
+  .transparent_button:hover {
+    box-shadow: 0 1px 10px var(--white-color);
+  }
+  .transparent_button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 10px var(--background-color);
+    
+  }
+  .blue_button {
+    background: var( --secondary-color);
+    color: var(--white-color);
+    border:  1px solid var(--secondary-color);
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 46px;
+    padding-right: 46px;
+  }
+  .blue_button:hover {
+    box-shadow: 0 1px 10px var(--white-color);
+  }
+  .blue_button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 10px var(--background-color);
+  }
+  
+
+

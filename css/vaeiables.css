@@ -1,0 +1,23 @@
+:root {
+    /* colors */
+    --white-color: white;
+    --secondary-color: #4452FE;
+    --light-blue-colir: rgb(67 182 255);
+    --background-color: #181818;
+    --color-gray: rgba(52, 52, 52, 1);
+    --background-color2: rgba(30, 30, 30, 1);
+
+    /* font-size */
+    --small: 16px;
+    --medium: 17px;
+    --large: 20px;
+    --xl: 52px;
+    --xxl: 80px;
+
+    /* font-weight */
+    --regular: 400;
+    --medium: 500;
+    /* header */
+
+    
+  }
