@@ -1,4 +1,4 @@
-#main_menu {
+#main_menu_ul {
     display: none;
 }
 
@@ -7,11 +7,18 @@
     right: 30px;
     top: 120px;
     padding: 10px;
-    background-color: var(--color-gray);
+    background-color: var(--secondary-color);
+
 }
 .main_menu li { 
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 .main_menu li a { 
     text-align: right;
+
+    font-size: var(--large);
+    font-weight: var(--medium);
+
+        
+
 }

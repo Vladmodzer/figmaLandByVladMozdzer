@@ -37,3 +37,13 @@
     filter: drop-shadow(white 0px 0px 10px);
 }
 
+#header_button img {
+    /* Стили для изображения меню */
+    transition: transform 0.3s ease; /* Добавляем анимацию для свойства transform */
+  }
+  
+ #header_button img:active {
+    transform: rotate(180deg); /* При активации кнопки, вращаем изображение на 90 градусов */
+  }
+  
+  

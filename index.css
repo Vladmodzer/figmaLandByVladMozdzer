@@ -12,7 +12,9 @@
     border: 0;
     box-sizing: border-box;
 }
-
+html {
+  scroll-behavior:smooth;
+}
 body,html {
     background-color: var(--background-color);
     height: 100%;
@@ -783,7 +785,7 @@ body,html {
       width: 240px;
     }
     .main_menu { 
-      top: 120px;
+      top: 126px;
   }
     .main_work_title_box {
       display: flex;
@@ -812,6 +814,9 @@ body,html {
   }
 /* 320 ***************************************************************************/
   @media (max-width: 320px) {
+    .main_menu {
+      top: 121px;
+  }
     .main_open_type_photo {
       margin-top: 106px;
     }
