@@ -44,6 +44,8 @@ document.addEventListener('click', (e) => {
   if (burgerOpen) {
     burgerMenu.style.display = 'none';
     burgerOpen = false;
+    menuImage.style.transform = 'rotate(0deg)';
+    rotated = !rotated;
   }
 });
 
